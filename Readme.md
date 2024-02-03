@@ -1,67 +1,28 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
+#My Website  site link https://chandan-assignment-marmeto.netlify.app/s
+This is a website that displays product data from an API. It has a tab switching layout that allows users to view products for men, women, and kids. It is designed only by using HTML, CSS, and JavaScript.
 
-Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
-
-## Getting Started
-
-1. **Clone or Download:**
-   - If using Git, clone the repository using the following command:
-     ```
-     git clone https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code.git
-     ```
-   - Alternatively, download the code as a ZIP file and extract it.
-
-2. **Navigate to Project Directory:**
-
-3. **Explore the Structure:**
-Take a moment to review the project structure:
-
-        project-root/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-        |-- README.md
-- `index.html`: Main HTML file for your project.
-- `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for scripting logic.
-- `README.md`: Documentation for your project.
-  
-> **Important:** Avoid using additional files or a single file for your code. Feel free to organize asset files by creating a separate folder.
-
-## Development and Testing
-
-4. **Start Working:**
-- Read all requirements that are shared with design files.
-- Open `index.html` in your browser to view the initial state of the project, And start coding.
-- Modify the `style.css` and `script.js` files to implement your solution.
-5. **Testing:**
-- Test your code to ensure it produces the expected output.
-- Ensure that the console (Developer Tools) does not display any errors.
+#Features
+Fetches product data from an API using the JavaScript Fetch API1
+Displays product image, badges, title, vendor, and price in a card layout
+Uses CSS Flexbox and Grid to create a responsive design
+Uses JavaScript to create tabs and switch between them
+Uses HTML data attributes to link tabs and tab contents
+It is also a responsive site.
 
 
----
-## Submission Guidelines
+#How to use
+To use this website, you need to have a web server that can serve static files. You can use any web server of your choice, such as Apache, Nginx, or Node.js. Alternatively, you can use a tool like Live Server to run a local web server for development purposes.
 
-### Option 1: GitHub Repository
 
-1. Create a new public repository on GitHub.
-2. Upload your project files (index.html, style.css, script.js) to the repository.
-3. Write a brief description of your project in the README.md file.
-4. Share the repository URL with us.
+#To run the website, follow these steps:
 
-### Option 2: ZIP File on Google Drive
+Clone or download this repository to your local machine.
+Open the index.html file in your web browser or use a web server to serve it.
+Click on the tabs to switch between different product categories.
+Enjoy browsing the products!
+Credits
+This website uses the following resources:
 
-1. Create a ZIP file of your entire project.
-2. Upload the ZIP file to your Google Drive.
-3. Share the public link to the ZIP file via email.
+Product data api - https://cdn.shopify.com/s/files/1/0564/3685/0790/files/multiProduct.json
+Google Fonts - a web font service {https://fonts.google.com/specimen/Inter}
 
-## Hosting (Bonus)
-You can earn bonus points by hosting your project on a free hosting platform such as GitHub Pages or Netlify.
-
-## Important Notes
-
-- Do not use any third-party libraries or frameworks.
-- Ensure that your project works as intended and is free from errors.
-- Make sure to include clear instructions on how to run your project (if necessary).
-
-Feel free to reach out to invigilator at `rishabh@marmeto.com` if you have any questions. Good luck! We look forward to reviewing your submission.
