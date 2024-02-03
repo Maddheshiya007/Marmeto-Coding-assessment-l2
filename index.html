@@ -7,13 +7,250 @@
     <link rel="stylesheet" href="./style.css">
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
     <title>Coding Assesment L2 boilerplate</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <!-- Your code goes here -->
     <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+
+        <h1>SELECT YOUR CHOICE</h1>
+
+        <div class="category">
+            <div class="catego active" id="catmen">
+
+                Men
+
+            </div>
+            <div class="catego" id="catwomen">
+                Women
+            </div>
+            <div class="catego" id="catkids">
+
+                Kids
+            </div>
+
+        </div>
+        <div class="products">
+            <div class="men">
+                <div class="product" id="1">
+                    <div class="img-tag" id="imgtag1">
+                        <h4 class="tag" id="tag1">Wedding Special</h4>
+                        <img id="img1" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="name1">Menxs Kurta</h4> * <p id="vendor1">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_1">1199.00</span></div>
+                            <div id="old_price_1" class="old_price">1299.00</div>
+                            <div class="red"><span id="discount1">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+                <div class="product" id="2">
+                    <div class="img-tag" id="imgtag2">
+                        <h4 class="tag" id="tag2">Wedding Special</h4>
+                        <img id="img2" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="name2">Menxs Kurta</h4> * <p id="vendor2">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_2">1199.00</span></div>
+                            <div id="old_price_2" class="old_price">1299.00</div>
+                            <div class="red"><span id="discount2">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+                <div class="product" id="3">
+                    <div class="img-tag" id="imgtag3">
+                        <h4 class="tag" id="tag3">Wedding Special</h4>
+                        <img id="img3" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="name3">Menxs Kurta</h4> * <p id="vendor3">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_3">1199.00</span></div>
+                            <div id="old_price_3" class="old_price">1299.00</div>
+                            <div class="red"><span id="discount3">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+                <div class="product" id="4">
+                    <div class="img-tag" id="imgtag4">
+                        <h4 class="tag" id="tag4">Wedding Special</h4>
+                        <img id="img4" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="name4">Menxs Kurta</h4> * <p id="vendor4">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_4">1199.00</span></div>
+                            <div id="old_price_4" class="old_price">1299.00</div>
+                            <div class="red"><span id="discount4">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="women">
+                <div class="product" id="w1">
+                    <div class="img-tag" id="imgtagw1">
+                        <h4 class="tag" id="tagw1">Wedding Special</h4>
+                        <img id="imgw1" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="namew1">Menxs Kurta</h4> * <p id="vendorw1">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_w1">1199.00</span></div>
+                            <div id="old_price_w1" class="old_price">1299.00</div>
+                            <div class="red"><span id="discountw1">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+                <div class="product" id="w2">
+                    <div class="img-tag" id="imgtagw2">
+                        <h4 class="tag" id="tagw2">Wedding Special</h4>
+                        <img id="imgw2" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="namew2">Menxs Kurta</h4> * <p id="vendorw2">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_w2">1199.00</span></div>
+                            <div id="old_price_w2" class="old_price">1299.00</div>
+                            <div class="red"><span id="discountw2">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+                <div class="product" id="w3">
+                    <div class="img-tag" id="imgtagw3">
+                        <h4 class="tag" id="tagw3">Wedding Special</h4>
+                        <img id="imgw3" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="namew3">Menxs Kurta</h4> * <p id="vendorw3">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_w3">1199.00</span></div>
+                            <div id="old_price_w3" class="old_price">1299.00</div>
+                            <div class="red"><span id="discountw3">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+                <div class="product" id="w4">
+                    <div class="img-tag" id="imgtagw4">
+                        <h4 class="tag" id="tagw4">Wedding Special</h4>
+                        <img id="imgw4" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="namew4">Menxs Kurta</h4> * <p id="vendorw4">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_w4">1199.00</span></div>
+                            <div id="old_price_w4" class="old_price">1299.00</div>
+                            <div class="red"><span id="discountw4">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="kids">
+                <div class="product" id="k1">
+                    <div class="img-tag" id="imgtagk1">
+                        <h4 class="tag" id="tagk1">Wedding Special</h4>
+                        <img id="imgk1" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="namek1">Menxs Kurta</h4> * <p id="vendork1">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_k1">1199.00</span></div>
+                            <div id="old_price_k1" class="old_price">1299.00</div>
+                            <div class="red"><span id="discountk1">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+                <div class="product" id="k2">
+                    <div class="img-tag" id="imgtagk2">
+                        <h4 class="tag" id="tagk2">Wedding Special</h4>
+                        <img id="imgk2" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="namek2">Menxs Kurta</h4> * <p id="vendork2">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_k2">1199.00</span></div>
+                            <div id="old_price_k2" class="old_price">1299.00</div>
+                            <div class="red"><span id="discountk2">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+                <div class="product" id="k3">
+                    <div class="img-tag" id="imgtagk3">
+                        <h4 class="tag" id="tagk3">Wedding Special</h4>
+                        <img id="imgk3" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="namek3">Menxs Kurta</h4> * <p id="vendork3">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_k3">1199.00</span></div>
+                            <div id="old_price_k3" class="old_price">1299.00</div>
+                            <div class="red"><span id="discountk3">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+                <div class="product" id="k4">
+                    <div class="img-tag" id="imgtagk4">
+                        <h4 class="tag" id="tagk4">Wedding Special</h4>
+                        <img id="imgk4" src="https://via.placeholder.com/150" alt="product">
+                    </div>
+                    <div class="details">
+                        <div class="dress-name">
+                            <h4 id="namek4">Menxs Kurta</h4> * <p id="vendork4">Manyvar</p>
+                        </div>
+                        <div class="prices">
+                            <div> Rs <span id="new_price_k4">1199.00</span></div>
+                            <div id="old_price_k4" class="old_price">1299.00</div>
+                            <div class="red"><span id="discountk4">50</span>% Off</div>
+                        </div>
+                        <div class="btn">Add to Cart</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </div>
     <!-- Happy coding 😊 -->
     <script src="./script.js"></script>
